@@ -6,7 +6,8 @@
     <meta name="description" content="Web Developer + Digital Designer."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corrina Lichthardt</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
     <!-- for FF, Chrome, Opera -->
@@ -15,8 +16,27 @@
     <!-- for IE -->
     <link rel="icon" type="image/x-icon" href="img/favicon16.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon32.ico"/>
+	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
 </head>
-<body class="dd-portfolio">
+<body id="slideshow">
+
+    <header class="togglesound_portfolio">
+        <a href="sound on/off" id="mute">sound on/off</a>
+    </header>
+
+    <audio id="background_audio" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" autoplay loop>
+        <embed name="dreamy acoustic electronica - whitedust" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" hidden="true">
+    </audio>
+
+    <div id="gallery" data-zs-src='["img/8468923.jpg", "img/2174842.jpg", "img/4715685.jpg", "img/156662.jpg", "img/7161681.jpg", "img/321564.jpg", "img/2183213.jpg"]'>
+		<div>
+		</div>
+	</div>
+
     <footer class="footer"><p>&copy; 2017 corrinalichthardt.com<p></footer>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.zoomslider.js"></script>
+    <script src="js/togglesound.js"></script>
 </body>
 </html>
