@@ -18,25 +18,37 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon32.ico"/>
 	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
 </head>
-<body id="slideshow">
-
-    <header class="togglesound_portfolio">
-        <a href="sound on/off" id="mute">sound on/off</a>
-    </header>
+<body id="#portfolio">
 
     <audio id="background_audio" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" autoplay loop>
         <embed name="dreamy acoustic electronica - whitedust" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" hidden="true">
     </audio>
 
-    <div id="gallery" data-zs-src='["img/8468923.jpg", "img/2174842.jpg", "img/4715685.jpg", "img/156662.jpg", "img/7161681.jpg", "img/321564.jpg", "img/2183213.jpg"]'>
-		<div>
-		</div>
-	</div>
+    <header class="togglesound_portfolio">
+        <a href="sound on/off" id="mute">sound on/off</a>
+    </header>
+
+    <main id="slideshow">
+        <div id="gallery" data-zs-src='["img/8468923.jpg", "img/2174842.jpg", "img/4715685.jpg", "img/156662.jpg", "img/7161681.jpg", "img/321564.jpg", "img/2183213.jpg"]'>
+            <div class="navigation">
+                <a  href="home.html"><img src="img/corrlogo_white.png" width="60px" /></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Web Development</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
 
     <footer class="footer"><p>&copy; 2017 corrinalichthardt.com<p></footer>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.zoomslider.js"></script>
     <script src="js/togglesound.js"></script>
+
 </body>
 </html>

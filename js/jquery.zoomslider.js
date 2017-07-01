@@ -1,8 +1,9 @@
 /*
- *  zoomSlider - v0.2.3
- *  CSS3 background zoom slideshow
- *  http://www.jqueryscript.net/demo/jQuery-Plugin-For-Automatic-Background-Slideshow-with-Image-Zoom-Effect-zoomslider/
- */
+ * zoomSlider - v0.2.3
+ * The MIT License (MIT)
+ * Copyright (c) 2015, mingyeungs
+*/
+
 ;(function ( $, window, document, undefined ) {
 
 	var pluginName = "zoomSlider",

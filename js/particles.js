@@ -1,4 +1,8 @@
-/* ---- particles.js config ---- */
+/*
+ * particles.js config
+ * The MIT License (MIT)
+ * Copyright (c) 2015, Vincent Garreau
+*/
 
 particlesJS("particles-js", {
   "particles": {
