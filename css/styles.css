@@ -130,11 +130,11 @@ html body {
 /*  navigation
 ----------------------------------------*/
 .navigation {
-    padding: 4em;
+    padding: 4em 4em 3em 4em;
 }
 
 .navigation img {
-    margin: 0 0 0.2em 0.7em;
+    margin: 0 0 0.7em 0.7em;
 }
 
 .menu {
@@ -169,4 +169,89 @@ html body {
 
 .menu ul:hover li a:hover {
 	opacity: 1;
+}
+
+/*  gallery button
+----------------------------------------*/
+
+#gallery_button {
+    font-family: 'Cutive Mono', monospace;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.8s ease-in-out;
+    margin-left: 5em;
+}
+
+#gallery_button:hover {
+    font-family: 'Cutive Mono', monospace;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*  quote & text
+----------------------------------------*/
+
+.design_quote {
+    font-family: 'Russo One', sans-serif;
+    font-size: 27px;
+    margin-left: 3em;
+    color: #ffffff;
+}
+
+.paul_rand {
+    font-size: 12px;
+}
+
+.intro_text {
+    font-family: 'Cutive Mono', monospace;
+    margin: 4.5em 5em 5em 5em;
+    color: #ffffff;
+}
+
+/*  social media icons
+----------------------------------------*/
+
+.social_icons {
+    position: fixed;
+    bottom: 2em;
+    right: 1.1em;
+}
+
+.facebook {
+    height: 30px;
+}
+
+.facebook:hover {
+    height: 50px;
+}
+
+.instagram {
+    height: 30px;
+}
+
+.instagram:hover {
+    height: 50px;
+}
+
+.github {
+    height: 30px;
+}
+
+.github:hover {
+    height: 50px;
+}
+
+.linkedin {
+    height: 30px;
+}
+
+.linkedin:hover {
+    height: 50px;
 }
