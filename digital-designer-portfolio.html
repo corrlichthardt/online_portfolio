@@ -23,16 +23,16 @@
 
 <body id="portfolio">
 
-    <audio id="background_audio" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" autoplay loop> <!--autoplay-->
+    <audio id="background_audio" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" preload="auto" loop>
         <embed name="dreamy acoustic electronica - whitedust" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" hidden="true">
     </audio>
 
     <header class="togglesound_portfolio">
-        <a href="sound on/off" id="mute">sound on/off</a>
+        <a onClick="togglePlay()">sound on/off</a>
     </header>
 
     <main id="slideshow">
-        <div id="gallery" data-zs-src='["img/8468923.jpg", "img/2174842.jpg", "img/4715685.jpg", "img/156662.jpg", "img/7161681.jpg", "img/321564.jpg", "img/2183213.jpg"]'>
+        <div id="gallery" data-zs-src='["img/8468923.jpg", "img/2174842.jpg", "img/4715685.jpg", "img/156662.jpg", "img/289419.jpg", "img/7161681.jpg", "img/2183213.jpg"]'>
             <div class="navigation">
                 <div class="logo_button">
                     <a href="home.html"><img src="img/corrlogo_white.png" width="60px" /></a>
@@ -40,9 +40,9 @@
                 <nav class="menu">
                     <ul>
                         <li><a href="about-me.html">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Web Development</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="web-development.html">Web Development</a></li>
                         <li><a href="digital-designer-portfolio.html">Digital Design</a></li>
                     </ul>
                 </nav>
@@ -60,7 +60,7 @@
     </main>
 
     <div class="social_icons">
-        <a href="https://www.facebook.com/corrphotography/" target="_blank"><img class="facebook" src="img/facebook.png" /></a>
+        <a href="https://www.facebook.com/theartofcorr" target="_blank"><img class="facebook" src="img/facebook.png" /></a>
         <a href="https://www.instagram.com/apple_corr/" target="_blank"><img class="instagram" src="img/instagram.png" /></a>
         <a href="https://github.com/corrlichthardt" target="_blank"><img class="github" src="img/github.png" /></a>
         <a href="https://de.linkedin.com/in/corrina-lichthardt-74a150b8/de" target="_blank"><img class="linkedin" src="img/linkedin.png" /></a>

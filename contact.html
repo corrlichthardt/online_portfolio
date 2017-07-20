@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Web Developer + Digital Designer." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrina Lichthardt</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+    <!-- for FF, Chrome, Opera -->
+    <link rel="icon" type="image/png" href="img/favicon16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon32.png" sizes="32x32">
+    <!-- for IE -->
+    <link rel="icon" type="image/x-icon" href="img/favicon16.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon32.ico" />
+</head>
+
+<body id="contact">
+
+    <audio id="background_audio" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" preload="auto" loop>
+        <embed name="dreamy acoustic electronica - whitedust" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" hidden="true">
+    </audio>
+
+    <header class="togglesound_portfolio">
+        <a onClick="togglePlay()">sound on/off</a>
+    </header>
+
+    <div class="navigation">
+        <div class="logo_button">
+            <a href="home.html"><img src="img/corrlogo_white.png" width="60px" /></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="about-me.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="web-development.html">Web Development</a></li>
+                <li><a href="digital-designer-portfolio.html">Digital Design</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main id="form">
+
+        <div class="container">
+            <form method="post" action="mail.php">
+
+                <label for="fname">FIRST NAME</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name">
+
+                <label for="lname">LAST NAME</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+                <label for="email">EMAIL</label>
+                <input type="text" id="email" name="email" placeholder="Your email">
+
+                <label for="subject">SUBJECT</label>
+                <select id="subject" name="subject">
+                    <option value="development">Web Development</option>
+                    <option value="design">Digital Design</option>
+                    <option value="both">Both</option>
+                </select>
+
+                <label for="message">MESSAGE</label>
+                <textarea id="message" name="message" placeholder="Please enter your message here"></textarea>
+
+                <input name="submit" type="submit" value="Submit">
+
+            </form>
+        </div>
+
+    </main>
+
+    <div class="social_icons">
+        <a href="https://www.facebook.com/theartofcorr" target="_blank"><img class="facebook" src="img/facebook.png" /></a>
+        <a href="https://www.instagram.com/apple_corr/" target="_blank"><img class="instagram" src="img/instagram.png" /></a>
+        <a href="https://github.com/corrlichthardt" target="_blank"><img class="github" src="img/github.png" /></a>
+        <a href="https://de.linkedin.com/in/corrina-lichthardt-74a150b8/de" target="_blank"><img class="linkedin" src="img/linkedin.png" /></a>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2017 corrinalichthardt.com
+            <p>
+    </footer>
+
+    <script src="js/togglesound.js"></script>
+
+</body>
+
+</html>

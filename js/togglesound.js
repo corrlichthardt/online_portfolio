@@ -1,8 +1,18 @@
-var audio = document.getElementById('background_audio');
+var audio = document.getElementById("background_audio");
+var isPlaying = false;
 
-document.getElementById('mute').addEventListener('click', function (e)
-{
-    e = e || window.event;
-    audio.muted = !audio.muted;
-    e.preventDefault();
-}, false);
+function togglePlay() {
+  if (isPlaying) {
+    audio.pause()
+  } else {
+    audio.play();
+  }
+};
+
+audio.onplaying = function() {
+  isPlaying = true;
+};
+
+audio.onpause = function() {
+  isPlaying = false;
+};

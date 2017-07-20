@@ -16,7 +16,6 @@
     <!-- for IE -->
     <link rel="icon" type="image/x-icon" href="img/favicon16.ico" />
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon32.ico" />
-
     <link rel="stylesheet" href="css/photoswipe.css">
     <link rel="stylesheet" href="css/default-skin/default-skin.css">
     <script src="js/photoswipe.min.js"></script>
@@ -26,10 +25,18 @@
 
 <body id="gallery">
 
-    <header class="back_button">
+    <audio id="background_audio" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" loop>
+        <embed name="dreamy acoustic electronica - whitedust" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" hidden="true">
+    </audio>
+
+    <header class="togglesound_portfolio">
+        <a onClick="togglePlay()">sound on/off</a>
+    </header>
+
+    <div class="back_button">
         <a href="digital-designer-portfolio.html">
             < back</a>
-    </header>
+    </div>
 
     <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
@@ -152,6 +159,7 @@
     </div>
 
     <script type="text/javascript" src="js/gallery_photoswipe.js"></script>
+    <script src="js/togglesound.js"></script>
 
 </body>
 

@@ -73,6 +73,7 @@ html body {
 
 .togglesound a:hover {
     text-decoration: line-through;
+    cursor: pointer;
 }
 
 
@@ -112,6 +113,25 @@ html body {
 
 .togglesound_portfolio a:hover {
     text-decoration: line-through;
+    cursor: pointer;
+}
+
+.togglesound_black {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 10px;
+    position: fixed;
+    top: 1em;
+    right: 2em;
+}
+
+.togglesound_black a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.togglesound_black a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
 }
 
 
@@ -119,7 +139,7 @@ html body {
 ----------------------------------------*/
 
 .navigation {
-    padding: 6em 4em 2.5em 4em;
+    padding: 5.2em 4em 1.8em 4em;
 }
 
 .logo_button {
@@ -140,11 +160,11 @@ html body {
     display: flex;
     padding: 0px;
     margin: 0px;
-    width: 559px;
+    width: 619px;
 }
 
 .menu ul li {
-    margin: 1em;
+    margin: 1em 1.4em;
 }
 
 .menu ul li a {
@@ -318,6 +338,7 @@ html body {
 }
 
 .about_wrapper {
+    padding-top: 1.2em;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -333,7 +354,7 @@ html body {
 .about_text {
     color: #ffffff;
     font-family: 'Cutive Mono', monospace;
-    margin: 0em 5em;
+    margin: 0em 1em;
 }
 
 
@@ -425,4 +446,121 @@ html body {
     font-size: 12px;
     padding: 0px;
     margin: 0px;
+}
+
+.para_1 {
+    max-width: 740px;
+}
+
+.para_2 {
+    max-width: 740px;
+}
+
+.para_3 {
+    max-width: 740px;
+    margin-bottom: 0px;
+}
+
+.dumpling_soup {
+    float: right;
+    margin: 0px;
+    padding-right: 20px;
+}
+
+
+/*  blog
+----------------------------------------*/
+
+.footer_blog {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0.8em;
+    right: 2em;
+    color: #000000;
+}
+
+.footer_blog p {
+    margin: 0px;
+}
+
+.menu_black {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 15px;
+}
+
+.menu_black a {
+    transition: all 1s ease-in-out;
+}
+
+.menu_black ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 619px;
+}
+
+.menu_black ul li {
+    margin: 1em 1.4em;
+}
+
+.menu_black ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu_black ul:hover li a {
+    opacity: 0.25;
+}
+
+.menu_black ul:hover li a:hover {
+    opacity: 1;
+}
+
+
+/*  contact
+----------------------------------------*/
+
+#contact {
+    background-color: #000000;
+}
+
+.container {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    color: #ffffff;
+    max-width: 800px;
+    margin: auto;
+    padding: 1.2em;
+}
+
+#message {
+    height: 200px;
+}
+
+input[type=text], select, textarea {
+    font-family: 'Cutive Mono', monospace;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ff80bf;
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff66b3;
 }
