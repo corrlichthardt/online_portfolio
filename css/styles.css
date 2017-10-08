@@ -43,7 +43,6 @@ html body {
     text-decoration: line-through;
 }
 
-
 /*  particles
 ----------------------------------------*/
 
@@ -53,7 +52,6 @@ html body {
     height: 99.7%;
     z-index: -1;
 }
-
 
 /*  music
 ----------------------------------------*/
@@ -76,7 +74,6 @@ html body {
     cursor: pointer;
 }
 
-
 /*  slideshow
 ----------------------------------------*/
 
@@ -93,7 +90,6 @@ html body {
     width: 100%;
     min-height: 100%;
 }
-
 
 /*  music digital portfolio
 ----------------------------------------*/
@@ -133,7 +129,6 @@ html body {
     text-decoration: line-through;
     cursor: pointer;
 }
-
 
 /*  navigation
 ----------------------------------------*/
@@ -180,7 +175,6 @@ html body {
     opacity: 1;
 }
 
-
 /*  quote & text
 ----------------------------------------*/
 
@@ -206,7 +200,6 @@ html body {
     color: #ffffff;
 }
 
-
 /*  gallery button
 ----------------------------------------*/
 
@@ -230,7 +223,6 @@ html body {
     color: #000000;
     cursor: pointer;
 }
-
 
 /*  social media icons
 ----------------------------------------*/
@@ -273,7 +265,6 @@ html body {
     height: 50px;
 }
 
-
 /*  footer
 ----------------------------------------*/
 
@@ -289,7 +280,6 @@ html body {
 .footer p {
     margin: 0px;
 }
-
 
 /*  gallery
 ----------------------------------------*/
@@ -329,7 +319,6 @@ html body {
     display: none;
 }
 
-
 /*  about
 ----------------------------------------*/
 
@@ -356,7 +345,6 @@ html body {
     font-family: 'Cutive Mono', monospace;
     margin: 0em 1em;
 }
-
 
 /*  skillbars
 ----------------------------------------*/
@@ -465,8 +453,8 @@ html body {
     float: right;
     margin: 0px;
     padding-right: 20px;
+    color: #ffffff;
 }
-
 
 /*  blog
 ----------------------------------------*/
@@ -518,7 +506,6 @@ html body {
     opacity: 1;
 }
 
-
 /*  contact
 ----------------------------------------*/
 
@@ -528,7 +515,7 @@ html body {
 
 .container {
     font-family: 'Cutive Mono', monospace;
-    font-weight: bold;
+    font-weight: 100;
     color: #ffffff;
     max-width: 800px;
     margin: auto;
@@ -563,4 +550,11 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #ff66b3;
+}
+
+.avatar_link {
+    font-family: 'Cutive Mono', monospace;
+    padding-left: 15em;
+    text-decoration: none;
+    color: #000000;
 }

@@ -1,0 +1,261 @@
+/* startpage background
+----------------------------------------*/
+
+.startpage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chathura', sans-serif;
+    background: url(img/background.jpg) no-repeat center center fixed;
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    background: url(img/background.jpg) no-repeat center center fixed;
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation: blur 0.5s linear;
+    -moz-animation: blur 0.5s linear forwards;
+    -ms-animation: blur 0.5s linear forwards;
+    -o-animation: blur 0.5s linear forwards;
+    animation: blur 0.5s linear forwards;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+@-webkit-keyframes blur {
+    to {
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+    }
+}
+
+@-moz-keyframes blur {
+    to {
+        -moz-filter: blur(5px);
+        filter: blur(5px);
+    }
+}
+
+@-o-keyframes blur {
+    to {
+        -moz-filter: blur(5px);
+        filter: blur(5px);
+    }
+}
+
+@keyframes blur {
+    to {
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        filter: blur(5px);
+    }
+}
+
+/* to the ...
+  ----------------------------------------*/
+
+.nation {
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    color: #fff;
+    font-size: 2em;
+}
+
+/* startpage menu
+  ----------------------------------------*/
+
+nav {
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    margin-top: -38px;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 3em;
+    text-decoration: none;
+    color: #fff;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: opacity 1s;
+    opacity: 1;
+    margin: 0.8em;
+    transition: all 1s ease-in-out;
+}
+
+nav a img {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50% margin-top: -25px;
+    margin-left: -50px;
+}
+
+nav:hover a {
+    opacity: 0.25;
+}
+
+nav:hover a:hover {
+    opacity: 1;
+}
+
+#fire:hover {
+    background: rgba(102, 15, 31, 0.7);
+}
+
+#water:hover {
+    background: rgba(26, 47, 83, 0.7);
+}
+
+#air:hover {
+    background: rgba(172, 181, 196, 0.7);
+}
+
+#earth:hover {
+    background: rgba(91, 102, 74, 0.7);
+}
+
+@media screen and (max-width: 1084px) and (min-width: 540px) {
+    body nav {
+        top: 18%;
+        margin-top: -18px;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 0px) {
+    body nav {
+        top: 0%;
+        margin-top: 0px;
+    }
+}
+
+/* cast
+  ----------------------------------------*/
+
+#cast {
+    background: url(img/all_elements.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* air theme
+  ----------------------------------------*/
+
+#air_theme {
+    background: url(img/air_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* fire theme
+----------------------------------------*/
+
+#fire_theme {
+    background: url(img/fire_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* earth theme
+----------------------------------------*/
+
+#earth_theme {
+    background: url(img/earth_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* water theme
+----------------------------------------*/
+
+#water_theme {
+    background: url(img/water_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* credits png
+----------------------------------------*/
+
+.wrappercredits {
+    width: 100%;
+}
+
+.credits {
+    width: 1000px;
+    display: table;
+    margin: 0 auto;
+    padding-top: 24.5em;
+}
+
+/* elements menu
+----------------------------------------*/
+
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+    width: 100%
+}
+
+.navbar a {
+    transition: all 1s ease-in-out;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 1em 2.5em;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 13.5px;
+    color: white;
+}
+
+.navbar ul:hover li a {
+    opacity: 0.25;
+}
+
+.navbar ul:hover li a:hover {
+    opacity: 1;
+}
