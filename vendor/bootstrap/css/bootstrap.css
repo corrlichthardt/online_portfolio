@@ -2000,7 +2000,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 3px rgba(255, 102, 179, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2225,7 +2225,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 3px rgba(255, 102, 179, 0.5);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {

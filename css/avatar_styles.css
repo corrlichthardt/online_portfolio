@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Chathura', sans-serif;
-    background: url(img/background.jpg) no-repeat center center fixed;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-position: right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,7 +24,7 @@
     left: 0;
     right: 0;
     opacity: .5;
-    background: url(img/background.jpg) no-repeat center center fixed;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-position: right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -72,10 +72,10 @@
 
 .back_button a {
     font-family: 'Overpass Mono', monospace;
-    font-size: 12px;
+    font-size: 14px;
     position: fixed;
     top: 0.8em;
-    left: 2em;
+    left: 35px;
     color: #ffffff;
     text-decoration: none;
 }

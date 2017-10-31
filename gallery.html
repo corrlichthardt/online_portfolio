@@ -15,9 +15,12 @@
     <link rel="icon" type="image/png" href="img/favicon32.png" sizes="32x32">
     <!-- for IE -->
     <link rel="icon" type="image/x-icon" href="img/favicon16.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon32.ico" />
-    <link rel="stylesheet" href="css/photoswipe.css">
-    <link rel="stylesheet" href="css/default-skin/default-skin.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon32.ico" />	
+    <link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+    <script type='text/javascript' src='vendor/jquery/jquery.min.js'></script>	
+	<script type='text/javascript' src='vendor/js/unitegallery.min.js'></script>
+    <script type='text/javascript' src='vendor/js/ug-theme-tiles.js'></script>
+
 </head>
 
 <body id="gallery">
@@ -26,7 +29,7 @@
         <embed name="dreamy acoustic electronica - whitedust" src="assets/19649144_dreamy-acoustic-electronica_by_whitedust_preview.mp3" hidden="true">
     </audio>
 
-    <header class="togglesound_portfolio">
+    <header class="togglesound_white">
         <a onClick="togglePlay()">sound on/off</a>
     </header>
 
@@ -34,118 +37,273 @@
         <a href="digital-designer-portfolio.html">
             < back</a>
     </div>
+	
+	<div id="tile-gallery" style="display:none;">
 
-    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+		<img alt=""
+             src="img/gallery/4.jpg"
+		     data-image="img/gallery/4.jpg"
+		     data-description=""
+		     style="display:none">
+        
+        <img alt=""
+        src="img/gallery/5.jpg"
+		data-image="img/gallery/5.jpg"
+		data-description=""
+        style="display:none">           
+        
+		<img alt=""
+        src="img/gallery/6.jpg"
+        data-image="img/gallery/6.jpg"
+        data-description=""
+        style="display:none">
+                
+		<img alt=""
+        src="img/gallery/7.jpg"
+        data-image="img/gallery/7.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="img/gallery/4.jpg" itemprop="image" data-size="1920x2880">
-                <img src="img/gallery/thumbnails/d-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+		<img alt=""
+        src="img/gallery/70.jpg"
+        data-image="img/gallery/70.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="" itemprop="contentUrl" data-size="964x1024">
-                <img src="img/gallery/thumbnails/dz-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+        <img alt=""
+        src="img/gallery/71.jpg"
+        data-image="img/gallery/71.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="img/gallery/4.jpg" itemprop="contentUrl" data-size="1024x683">
-                <img src="img/gallery/thumbnails/jbw-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+        <img alt=""
+        src="img/gallery/73.jpg"
+        data-image="img/gallery/73.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="" itemprop="contentUrl" data-size="1024x768">
-                <img src="img/gallery/thumbnails/jk-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+		<img alt=""
+        src="img/gallery/74.jpg"
+        data-image="img/gallery/74.jpg"
+        data-description=""
+        style="display:none">
+        
+        <img alt=""
+        src="img/gallery/b1.jpg"
+        data-image="img/gallery/b1.jpg"
+        data-description=""
+        style="display:none">           
+        
+        <img alt=""
+        src="img/gallery/b2.jpg"
+        data-image="img/gallery/b2.jpg"
+        data-description=""
+        style="display:none">
+                
+        <img alt=""
+        src="img/gallery/b3.jpg"
+        data-image="img/gallery/b3.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="" itemprop="contentUrl" data-size="1024x1024">
-                <img src="img/gallery/thumbnails/j-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+        <img alt=""
+        src="img/gallery/b4.jpg"
+        data-image="img/gallery/b4.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="" itemprop="contentUrl" data-size="964x1024">
-                <img src="img/gallery/thumbnails/om-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+        <img alt=""
+        src="img/gallery/D4.jpg"
+        data-image="img/gallery/D4.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="" itemprop="contentUrl" data-size="1024x683">
-                <img src="img/gallery/thumbnails/t-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+        <img alt=""
+        src="img/gallery/D5.jpg"
+        data-image="img/gallery/D5.jpg"
+        data-description=""
+        style="display:none">
 
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="" itemprop="contentUrl" data-size="1024x683">
-                <img src="img/gallery/thumbnails/s-tn.jpg" itemprop="thumbnail" alt="Image description" />
-            </a>
-        </figure>
+        <img alt=""
+        src="img/gallery/D6.jpg"
+        data-image="img/gallery/D6.jpg"
+        data-description=""
+        style="display:none">           
+        
+        <img alt=""
+        src="img/gallery/D7.jpg"
+        data-image="img/gallery/D7.jpg"
+        data-description=""
+        style="display:none">
+                
+        <img alt=""
+        src="img/gallery/D9.jpg"
+        data-image="img/gallery/D9.jpg"
+        data-description=""
+        style="display:none">
 
-    </div>
+        <img alt=""
+        src="img/gallery/D10.jpg"
+        data-image="img/gallery/D10.jpg"
+        data-description=""
+        style="display:none">
 
-    <!-- photoswipe -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <img alt=""
+        src="img/gallery/j1.jpg"
+        data-image="img/gallery/j1.jpg"
+        data-description=""
+        style="display:none">
 
-        <div class="pswp__bg"></div>
+        <img alt=""
+        src="img/gallery/j2.jpg"
+        data-image="img/gallery/j2.jpg"
+        data-description=""
+        style="display:none">
 
-        <div class="pswp__scroll-wrap">
+        <img alt=""
+        src="img/gallery/j3.jpg"
+        data-image="img/gallery/j3.jpg"
+        data-description=""
+        style="display:none">           
+        
+        <img alt=""
+        src="img/gallery/j4.jpg"
+        data-image="img/gallery/j4.jpg"
+        data-description=""
+        style="display:none">
+                
+        <img alt=""
+        src="img/gallery/j5.jpg"
+        data-image="img/gallery/j5.jpg"
+        data-description=""
+        style="display:none">
 
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
+        <img alt=""
+        src="img/gallery/j6.jpg"
+        data-image="img/gallery/j6.jpg"
+        data-description=""
+        style="display:none">
 
-            <div class="pswp__ui pswp__ui--hidden">
+        <img alt=""
+        src="img/gallery/j7.jpg"
+        data-image="img/gallery/j7.jpg"
+        data-description=""
+        style="display:none">
 
-                <div class="pswp__top-bar">
+        <img alt=""
+        src="img/gallery/j8.jpg"
+        data-image="img/gallery/j8.jpg"
+        data-description=""
+        style="display:none">
 
-                    <div class="pswp__counter"></div>
+        <img alt=""
+        src="img/gallery/s1.jpg"
+        data-image="img/gallery/s1.jpg"
+        data-description=""
+        style="display:none">           
+        
+        <img alt=""
+        src="img/gallery/s2.jpg"
+        data-image="img/gallery/s2.jpg"
+        data-description=""
+        style="display:none">
+                
+        <img alt=""
+        src="img/gallery/s3.jpg"
+        data-image="img/gallery/s3.jpg"
+        data-description=""
+        style="display:none">
 
-                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <img alt=""
+        src="img/gallery/T1.jpg"
+        data-image="img/gallery/T1.jpg"
+        data-description=""
+        style="display:none">
 
-                    <button class="pswp__button pswp__button--share" title="Share"></button>
+        <img alt=""
+        src="img/gallery/T2.jpg"
+        data-image="img/gallery/T2.jpg"
+        data-description=""
+        style="display:none">
 
-                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <img alt=""
+        src="img/gallery/T3.jpg"
+        data-image="img/gallery/T3.jpg"
+        data-description=""
+        style="display:none">
 
-                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <img alt=""
+        src="img/gallery/T4.jpg"
+        data-image="img/gallery/T4.jpg"
+        data-description=""
+        style="display:none">           
+        
+        <img alt=""
+        src="img/gallery/T5.jpg"
+        data-image="img/gallery/T5.jpg"
+        data-description=""
+        style="display:none">
+                
+        <img alt=""
+        src="img/gallery/T6.jpg"
+        data-image="img/gallery/T6.jpg"
+        data-description=""
+        style="display:none">
 
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <img alt=""
+        src="img/gallery/T7.jpg"
+        data-image="img/gallery/T7.jpg"
+        data-description=""
+        style="display:none">
 
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div>
+        <img alt=""
+        src="img/gallery/W1.jpg"
+        data-image="img/gallery/W1.jpg"
+        data-description=""
+        style="display:none">
 
-                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                </button>
+        <img alt=""
+        src="img/gallery/W2.jpg"
+        data-image="img/gallery/W2.jpg"
+        data-description=""
+        style="display:none">
 
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                </button>
+        <img alt=""
+        src="img/gallery/W3.jpg"
+        data-image="img/gallery/W3.jpg"
+        data-description=""
+        style="display:none">           
+        
+        <img alt=""
+        src="img/gallery/W4.jpg"
+        data-image="img/gallery/W4.jpg"
+        data-description=""
+        style="display:none">
+                
+        <img alt=""
+        src="img/gallery/W5.jpg"
+        data-image="img/gallery/W5.jpg"
+        data-description=""
+        style="display:none">
 
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
+        <img alt=""
+        src="img/gallery/W6.jpg"
+        data-image="img/gallery/W6.jpg"
+        data-description=""
+        style="display:none">
 
-            </div>
+	</div>
+	
+	<script type="text/javascript">
 
-        </div>
+		jQuery(document).ready(function(){
 
-    </div>
+			jQuery("#tile-gallery").unitegallery();
 
-    <script src="vendor/js/photoswipe.min.js"></script>
-    <script src="vendor/js/photoswipe-ui-default.min.js"></script>
-    <script type="text/javascript" src="vendor/js/gallery_photoswipe.js"></script>
+		});
+		
+    </script>
+
     <script src="vendor/js/togglesound.js"></script>
 
 </body>
