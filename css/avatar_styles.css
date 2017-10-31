@@ -70,6 +70,16 @@
     }
 }
 
+.back_button a {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 12px;
+    position: fixed;
+    top: 0.8em;
+    left: 2em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* to the ...
   ----------------------------------------*/
 

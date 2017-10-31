@@ -94,20 +94,16 @@ html body {
 /*  music digital portfolio
 ----------------------------------------*/
 
-.togglesound_portfolio {
+.togglesound_white {
     font-family: 'Overpass Mono', monospace;
     font-size: 10px;
     position: fixed;
     top: 1em;
     right: 2em;
-}
-
-.togglesound_portfolio a {
     color: #ffffff;
-    text-decoration: none;
 }
 
-.togglesound_portfolio a:hover {
+.togglesound_white:hover {
     text-decoration: line-through;
     cursor: pointer;
 }
@@ -118,14 +114,10 @@ html body {
     position: fixed;
     top: 1em;
     right: 2em;
-}
-
-.togglesound_black a {
     color: #000000;
-    text-decoration: none;
 }
 
-.togglesound_black a:hover {
+.togglesound_black:hover {
     text-decoration: line-through;
     cursor: pointer;
 }
@@ -327,7 +319,9 @@ html body {
 }
 
 .about_wrapper {
-    padding-top: 1.2em;
+    width: 80%;
+    padding: 20px 30px 0 30px;
+    margin: auto;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -337,22 +331,24 @@ html body {
 }
 
 .about_gif {
-    margin: 0em 5em;
+    margin-right: 5em;
 }
 
 .about_text {
     color: #ffffff;
     font-family: 'Cutive Mono', monospace;
-    margin: 0em 1em;
+    padding: 20px 30px 0 30px;
+    width: 80%;
+    margin: auto;
 }
 
 /*  skillbars
 ----------------------------------------*/
 
 .my_skills {
-    max-width: 650px;
+    width: 50%;
+    height: 100%;
     margin: auto;
-    margin-top: 2.5em;
 }
 
 .skillbar {
@@ -436,19 +432,6 @@ html body {
     margin: 0px;
 }
 
-.para_1 {
-    max-width: 740px;
-}
-
-.para_2 {
-    max-width: 740px;
-}
-
-.para_3 {
-    max-width: 740px;
-    margin-bottom: 0px;
-}
-
 .dumpling_soup {
     float: right;
     margin: 0px;
@@ -510,20 +493,29 @@ html body {
 ----------------------------------------*/
 
 #contact {
-    background-color: #000000;
+    background: url(../img/contact-img.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 25px 0;
 }
 
 .container {
     font-family: 'Cutive Mono', monospace;
     font-weight: 100;
     color: #ffffff;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     padding: 1.2em;
 }
 
 #message {
-    height: 200px;
+    height: 140px;
 }
 
 input[type=text], select, textarea {
