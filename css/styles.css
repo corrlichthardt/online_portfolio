@@ -291,24 +291,23 @@ html body {
 }
 
 .my-gallery {
-    width: 100%;
-    float: left;
+    padding: 35px;
+    text-align: center;
 }
 
 .my-gallery img {
-    width: 100%;
+    padding: 2px;
+    margin: 0 2px;
     height: auto;
+    margin: auto;
+    display: inline-block;
 }
 
 .my-gallery figure {
     display: block;
-    float: left;
-    margin: 0 5px 5px 0;
-    width: 150px;
-}
-
-.my-gallery figcaption {
-    display: none;
+    width: auto;
+    display:inline-block;
+    margin: 2px;
 }
 
 /*  about
