@@ -318,7 +318,7 @@ html body {
 ----------------------------------------*/
 
 #about {
-    background: url(../img/about-img.jpg) no-repeat center center fixed; 
+    background: url(../img/about.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -326,7 +326,7 @@ html body {
 }
 
 .about_container {
-    background-color: rgba(0, 0, 0, 0.808);
+    background-color: rgba(0, 0, 0, 0.623);
     padding: 25px 0;
 }
 
@@ -453,10 +453,6 @@ html body {
 
 /*  blog
 ----------------------------------------*/
-
-#blog {
-    background-color: #ffffff;
-}
 
 .footer_blog {
     font-family: 'Overpass Mono', monospace;
