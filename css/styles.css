@@ -10,6 +10,10 @@ html body {
     background-color: #ffffff;
 }
 
+.particles-js-canvas-el {
+    height: 99% !important;
+}
+
 .logo {
     font-family: 'Cutive Mono', monospace;
     position: absolute;

@@ -1,7 +1,7 @@
-var audio = document.getElementById("background_audio");
-var isPlaying = false;
+var audio = document.getElementById("audio");
+var isPlaying = true;
 
-function togglePlay() {
+function toggleMusic() {
   if (isPlaying) {
     audio.pause()
   } else {
